@@ -1,0 +1,63 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: #000e13;
+  color: white;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+.header {
+  padding: 0 2rem 0 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu {
+  padding: 0 4rem 0 4rem;
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+
+.menu:hover {
+  color: #14F195;
+}
+
+.current {
+  color: white;
+}
+
+.link {
+  color: #14F195;
+}
+
+.heading {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 48em){
+  .heading {
+    font-size: 4.5rem;
+  }
+}
+
+@media screen and (min-width: 30em){
+  .heading {
+    font-size: 3rem;
+  }
+}
+
+.yellow-purple {
+  background: rgb(250,224,86);
+  background: -moz-linear-gradient(45deg, rgba(250,224,86,1) 17%, rgba(86,107,250,1) 91%);
+  background: -webkit-linear-gradient(45deg, rgba(250,224,86,1) 17%, rgba(86,107,250,1) 91%);
+  background: linear-gradient(45deg, rgba(250,224,86,1) 17%, rgba(86,107,250,1) 91%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fae056",endColorstr="#566bfa",GradientType=1);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
